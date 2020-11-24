@@ -31,7 +31,8 @@ lista1.sort()
 lista2.sort(reverse=True)
 print(lista1)
 print(lista2)
-'''
+
+
 
 #Es. 3
 lista_stip = []
@@ -47,7 +48,7 @@ while count == True:
     lista_stip.append(stipendi_p)
 
     if ripetizioni == 3:
-        q = int(input("Vuoi uscire? Per uscire scrivi -1, se no premi 0 "))
+        q = int(input("Vuoi uscire? Per uscire scrivi -1, se no premi 0 : "))
         ripetizioni = 0
         if q == -1:
             count = False
@@ -59,3 +60,27 @@ l = len(lista_stip)
 print(lista_stip)
 mediastip = somma/l
 print(mediastip)
+'''
+#Es. 4
+lista_v = []
+count = True
+ng = 0
+ripetizioni = 0
+somma = 0
+while count == True:
+    ng += 1
+    ripetizioni += 1
+    print("Quanti veicoli sono entrati il giorno", ng,"? ")
+    veicoli = int(input())
+    lista_v.append(veicoli)
+
+    if ripetizioni == 3:
+        q = int(input("Vuoi uscire? Per uscire scrivi 0, se no premi 1 : "))
+        ripetizioni = 0
+        if q == 0:
+            count = False
+        else:
+            pass
+for i in lista_v:
+    somma += i
+print("In", ng,"giorni, sono transitati", somma, "veicoli")
