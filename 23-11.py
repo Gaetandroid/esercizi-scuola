@@ -1,4 +1,3 @@
-'''
 #Es. 1
 print("Inserire i voti del primo candidato")
 v1 = int(input())
@@ -60,7 +59,7 @@ l = len(lista_stip)
 print(lista_stip)
 mediastip = somma/l
 print(mediastip)
-'''
+
 #Es. 4
 lista_v = []
 count = True
