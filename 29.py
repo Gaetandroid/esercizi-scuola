@@ -54,9 +54,9 @@ while ciclo3 == True:
                     print("\nSto alzando il range del contatore per far entrare l'escursione termica di", città[indicef])
                     diffesc += 1
                     if diffesc > 0:
-                        print("\nOra i valori sono stabilizzati! Premi 'T' per tornare al menù principale, premi qualsiasi altro tasto per chiudere.")
+                        print("\nOra i valori sono stabilizzati! Premi 't' per tornare al menù principale, premi qualsiasi altro tasto per chiudere.")
                         finale = input()
-                        if finale == "T":
+                        if finale == "t":
                             ciclo4 = False
                             ciclo5 = False
                         else:
