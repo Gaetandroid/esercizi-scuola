@@ -1,4 +1,4 @@
-#Es. 4
+#Es. 27
 lista_v = []
 count = True
 ng = 0

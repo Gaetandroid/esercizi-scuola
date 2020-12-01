@@ -1,4 +1,4 @@
-#Es. 3
+#Es. 26
 lista_stip = []
 count = True
 persona = 0

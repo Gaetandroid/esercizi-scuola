@@ -1,4 +1,4 @@
-#Es. 2
+#Es. 25
 print("Inserire i voti e il nome del primo candidato")
 v1 = int(input())
 n1 = input()
