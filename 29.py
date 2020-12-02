@@ -26,7 +26,7 @@ for i in range(n):
     esc_città = ltmax[i]-ltmin[i]
     if escursione_max < esc_città:
         r += 1
-        print("\nI valori delle città che non rientrano nel range del contatore sono:", r,)
+        print("\nI valori delle città che non rientrano nel range del contatore sono:", r,"\n...")
     else:
         pass
-print("Ora tutti i valori  delle", n,"città rientrano nel range del contatore")
+print("\nOra tutti i valori delle", n,"città rientrano nel range del contatore")
