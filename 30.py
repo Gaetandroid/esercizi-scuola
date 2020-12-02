@@ -8,7 +8,7 @@ for i in range(lunghezza):
     cif = int(input())
     numero.append(cif)
 numero.reverse()
-print("\nNumero binario registrato diviso in cifre da 1: ",numero)
+print("\nNumero binario registrato e diviso in cifre singole: ",numero)
 somma = 0
 potenza = 0
 for i in range(lunghezza):
