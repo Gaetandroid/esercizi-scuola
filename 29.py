@@ -10,10 +10,10 @@ while ciclo == True:
     print("Digita nome della città numero", n)
     nomec = input()
     città.append(nomec)
-    print("Digita il valore massimo dell'escursione termica di", nomec)
+    print("Digita il valore massimo dell'escursione termica giornaliera di", nomec)
     vtmax = int(input())
     ltmax.append(vtmax)
-    print("Digita il valore minimo dell'escursione termica di", nomec)
+    print("Digita il valore minimo dell'escursione termica giornaliera di", nomec)
     vtmin = int(input())
     ltmin.append(vtmin)
     stop2 = input("Premi 0 se hai finito le città, premi qualsiasi altro tasto per continuare ")
@@ -43,10 +43,10 @@ while ciclo2 == True:
             diffesc = escursione_max - escursione_termica
             print("\nValore massimo del contatore: ", escursione_max)
             if diffesc > 0:
-                print("\nL'escursione termica di", città[indicef],"è di", escursione_termica,"rientra nel range prefissato per", diffesc,"gradi")
+                print("\nL'escursione termica di", città[indicef],"è di", escursione_termica,"gradi. Rientra nel range prefissato per", diffesc,"gradi")
                 ciclo3 = False
             else:
-                print("\nL'escursione termica di", città[indicef],"è di", escursione_termica,"non rientra nel range prefissato per", diffesc,"gradi")
+                print("\nL'escursione termica di", città[indicef],"è di", escursione_termica,"gradi. Non rientra nel range prefissato per", diffesc,"gradi")
                 ciclo4 = True
                 while ciclo4 == True:
                     print("\nSto alzando il range del contatore per far entrare l'escursione termica di", città[indicef])
