@@ -13,7 +13,7 @@ while ciclo == True:
     print(p_trad)
     print("Vuoi tradurne un altra? Digita Si per continuare, digita No per smettere")
     risp = input()
-    rip = risp.lower
+    risp = risp.lower
     if risp == "si":
         pass
     else:
