@@ -4,8 +4,8 @@ from tkinter import ttk
 
 def calcoloarea(*args):
  try:
-     raggio=float(r.get())
-     risultato.set(raggio**2)
+     lato=float(l.get())
+     risultato.set(lato**2)
 
 
  except ValueError:
@@ -15,7 +15,7 @@ def calcoloarea(*args):
 
 def reset(*args):
  clear = ""
- r.set(clear)
+ l.set(clear)
  risultato.set(clear)
 
 
@@ -26,13 +26,13 @@ mainframe = ttk.Frame(root)
 mainframe.place(height=0, x=0, y=0)
 
 
-r=StringVar()
+l=StringVar()
 risultato=StringVar()
 risultato2=StringVar()
 
 
-r_entry=Entry(root, width=3, textvariable=r, font=('verdana', 50))
-r_entry.place(height=100, x=5, y=100)
+l_entry=Entry(root, width=3, textvariable=l, font=('verdana', 50))
+l_entry.place(height=100, x=5, y=100)
 
 
 Label(root, text="RISULTATO AREA:", font=('verdana', 15)).place(height=20, x=5, y=240)
