@@ -3,16 +3,16 @@ from tkinter import ttk
 import os
 
 def open_quadrato():
-    os.system('"%s"' %"areaquadrato.py")
+    os.system('"%s"' %"es4scheda\programmi_singoli\Areaquadrato.py")
 
 def open_rettangolo():
-    os.system('"%s"' %"arearettangolo.py")
+    os.system('"%s"' %"es4scheda\programmi_singoli\Arearettangolo.py")
 
 def open_cerchio():
-    os.system('"%s"' %"pigreco.py")
+    os.system('"%s"' %"es4scheda\programmi_singoli\pigreco.py")
 
 def open_triangolo():
-    os.system('"%s"' %"Areatrriangolo.py")
+    os.system('"%s"' %"es4scheda\programmi_singoli\Areatrriangolo.py")
 
 root=Tk()
 root.title("Calcolatrice Area Poligoni")
