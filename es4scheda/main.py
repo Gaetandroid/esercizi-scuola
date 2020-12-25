@@ -1,3 +1,6 @@
+'''Scrivi un programma che a scelta dall'utente calcoli l'area di un quadrato, rettangolo
+triangolo e cerchio'''
+
 from tkinter import *
 from tkinter import ttk
 import os
