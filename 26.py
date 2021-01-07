@@ -1,4 +1,5 @@
-#Es. 26
+'''Calcola la media degli stipendi dei dipendenti di un'azienda, acquisiti con una ripetizione fino a quando si inserisce -1 per segnalare la fine dell'input dei dati'''
+
 lista_stip = []
 count = True
 persona = 0

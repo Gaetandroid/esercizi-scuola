@@ -1,4 +1,6 @@
-#Es. 24
+'''Alla fine della giornata di elezioni per il ballottaggio tra due candidati, si acquisiscono i voti ottenuti dai due candidati.
+Scrivi il programma che calcoli le percentuali ottenute da ciascun candidato e comunichi il nome del vincitore'''
+
 print("Inserire i voti del primo candidato")
 v1 = int(input())
 print("Inserire i voti del secondo candidato")

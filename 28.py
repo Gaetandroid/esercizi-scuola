@@ -1,4 +1,5 @@
-#Es. 28
+'''Dato un elenco di studenti partecipanti a una gara sportiva di lancio del peso (nome stundente, lancio), visualizza il valore del lancio del vincitore (valore massimo)'''
+
 ripeti = True
 p = 0
 r = 0

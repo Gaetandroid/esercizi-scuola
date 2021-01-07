@@ -1,4 +1,6 @@
-#Es. 27
+'''I dati relativi al numero di veicoli transitati in entrata a un casello autostradale sono inseriti, giorno per giorno, con una ripetizione che termina quando si inserisce 0 come segnalazione della fine dell'input dei dati.
+Comunica il totale dei veicoli transitanti nel periodo considerato'''
+
 lista_v = []
 count = True
 ng = 0
