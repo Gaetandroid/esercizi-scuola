@@ -1,3 +1,6 @@
+'''Caricare da tastiera i dati del dizionario settimana per la traduzione dei giorni della settimana dall'italiano all'inglese
+e successivamente costruire il dizionario dall'inglese all'italiano'''
+
 from googletrans import Translator
 translator = Translator()
 
