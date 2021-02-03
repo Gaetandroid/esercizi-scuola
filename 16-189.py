@@ -16,13 +16,13 @@ def main():
         naz = input()
         naz = naz.capitalize()
         if naz not in d:
-            print("Nazione non trovata. Premere 0 per chiudere o premere qualsiasi altro tasto per reinserire la nazione: ")
+            print("Nazione non trovata.\nPremere 0 per chiudere o premere qualsiasi altro tasto per reinserire la nazione: ")
             controllo = input()
             if controllo == "0":
                 break
         else:
             cap = d.get(naz)
-            print("La capitale è:", cap, "Premere 0 per chiudere o premere qualsiasi altro tasto per reinserire la nazione:")
+            print("La capitale è:", cap, "\nPremere 0 per chiudere o premere qualsiasi altro tasto per reinserire la nazione:")
             controllo2 = input()
             if controllo2 == "0":
                 break
