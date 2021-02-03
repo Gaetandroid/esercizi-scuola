@@ -7,3 +7,4 @@
 ## CreaDizionario giorno: 27/01
 ## 15-16 pag 189 giorno: 28/01
 ## 30-189 giorno: 3/02
+## 19-189, esvoto giorno: 4/02
