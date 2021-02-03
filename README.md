@@ -6,3 +6,4 @@
 ## 2-201 giorno: 20/1
 ## CreaDizionario giorno: 27/01
 ## 15-16 pag 189 giorno: 28/01
+## 30-189 giorno: 3/02
