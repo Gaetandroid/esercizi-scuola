@@ -27,7 +27,7 @@ for i in range(30):
     l_voti.append(voto)
 
 for e in range(len(l_matricole)):
-    l_voti.sort()
+    l_voti.sort
     diz_finale[l_matricole[e]] = l_voti[e]
 
 for o in range(len(l_matricole)):
@@ -42,7 +42,7 @@ def controllo_media(contatore_mat = 0):
     for i in range(len(l_matricole)):
         contatore_mat += 1
         if l_voti[i] > media_voti:
-            mat_sopra_la_media.append(l_matricole[contatore_mat])
+            mat_sopra_la_media.append(l_matricole[contatore_mat-1])
     print("La media dei voti è: ", media_voti)
     return mat_sopra_la_media
 
