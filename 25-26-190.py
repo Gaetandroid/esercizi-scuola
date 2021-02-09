@@ -46,6 +46,8 @@ def controllo_media(contatore_mat = 0):
     return mat_sopra_la_media
 
 l_voti_diversi.sort(reverse=True)
-print("Dizionario in ordine di voto: ", diz_finale)
+l_voti.sort()
+print("Lista voti in ordine crescente: ", l_voti)
+print("Dizionario in ordine di matricola: ", diz_finale)
 print("Diversi voti usciti in verifica: ", l_voti_diversi)
 print("Le matricole sopra la media sono: ", controllo_media())
