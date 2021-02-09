@@ -27,7 +27,7 @@ for i in range(30):
     l_voti.append(voto)
 
 for e in range(len(l_matricole)):
-    l_voti.sort(reverse=True)
+    l_voti.sort()
     diz_finale[l_matricole[e]] = l_voti[e]
 
 for o in range(len(l_matricole)):
