@@ -1,6 +1,6 @@
 class Atleta():
     def __init__(self, nome_squadra, visita_medica=False):
-        self.nome_squadra = nome_squadra
+        self.nome_squadra = nome_squadra.capitalize()
         self.visita_medica = visita_medica
     def squadra(self):
         print("L'atleta gioca nella squadra:", self.nome_squadra)
@@ -9,9 +9,9 @@ class Atleta():
         self.visita_medica = True
     def visualizza_dati(self):
         if self.visita_medica:
-            print("L'atleta gioca nella squadra:", self.nome_squadra, "e ha effettuato la visita medica.")
+            print("L'atleta gioca nella squadra:", self.nome_squadra, "\nHa effettuato la visita medica.")
         else:
-            print("L'atleta gioca nella squadra:", self.nome_squadra, "ma non ha ancora effettuato la visita medica.")
+            print("L'atleta gioca nella squadra:", self.nome_squadra, "\nNon ha ancora effettuato la visita medica.")
 
 def main():
     squadra = input("Inserire squadra atleta: ")
