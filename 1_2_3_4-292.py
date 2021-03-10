@@ -1,3 +1,9 @@
+'''Crea una classe Atleta per rappresentare le informazioni su un giocatore. 
+La classe deve contenere un attributo booleano chiamato visita_medica.
+Aggiungi alla classe Atleta un metodo per assegnare all'atleta il nome della squadra in cui gioca. (GC)
+Aggiungi alla classe Atleta un metodo chiamato effettua_visita che ponga l'attributo visita_medica uguale a True
+Aggiungi alla classe Atleta un metodo per visualizzare i dati del giocatore.
+'''
 class Atleta():
     def __init__(self, nome_squadra, visita_medica=False):
         self.nome_squadra = nome_squadra.capitalize()
